@@ -1,0 +1,27 @@
+# Ignore virtual environment
+clothes/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset file
+final_test.csv
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment & dependency files (if any in future)
+.env
+.env.*
+
+# Ignore Flask-related cache and instance folders (future use)
+instance/
+*.log
+
+# VS Code settings (if you're using it)
+.vscode/
+
+# Mac system files
+.DS_Store
